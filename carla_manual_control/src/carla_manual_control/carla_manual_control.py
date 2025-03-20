@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-#
+#!/home/nvidia/miniconda3/envs/carla_py3.8/bin/python
+
 # Copyright (c) 2017 Computer Vision Center (CVC) at the Universitat Autonoma de
 # Barcelona (UAB).
 # Copyright (c) 2019 Intel Corporation

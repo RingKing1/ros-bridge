@@ -11,3 +11,11 @@ float32 speed
 float32 speed_abs
 float32 accel
 float32 jerk
+
+
+#float32 steering_angle //转向角
+#float32 steering_angle_velocity //转向角的速度
+#float32 speed //向前的速度
+#float32 acceleration //加速度
+#float32 jerk //变加速度
+

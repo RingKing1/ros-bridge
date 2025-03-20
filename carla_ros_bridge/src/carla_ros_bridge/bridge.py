@@ -440,7 +440,6 @@ def main(args=None):
                         parameters["town"], carla_world.get_map().name))
                     carla_world = carla_client.load_world(parameters["town"])
             carla_world.tick()
-
         carla_bridge.initialize_bridge(carla_client.get_world(), parameters)
 
         carla_bridge.spin()
