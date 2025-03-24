@@ -172,7 +172,7 @@ class LocalPlanner(CompatibleNode):
                 for i in range(max_index + 1):
                     self._waypoint_buffer.popleft()
 
-            self._control_cmd_publisher.publish(control_msg)
+           # self._control_cmd_publisher.publish(control_msg)
 
     def emergency_stop(self):
         control_msg = CarlaEgoVehicleControl()
@@ -181,7 +181,7 @@ class LocalPlanner(CompatibleNode):
         control_msg.brake = 1.0
         control_msg.hand_brake = False
         control_msg.manual_gear_shift = False
-        self._control_cmd_publisher.publish(control_msg)
+        #self._control_cmd_publisher.publish(control_msg)
 
 
 def main(args=None):

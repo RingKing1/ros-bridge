@@ -126,6 +126,12 @@ def generate_launch_description():
             launch_arguments={
                 'role_name': launch.substitutions.LaunchConfiguration('role_name')
             }.items()
+        ),
+        launch.actions.IncludeLaunchDescription(
+            launch.launch_description_sources.PythonLaunchDescriptionSource(
+                os.path.join(get_package_share_directory(
+                    'carla_ackermann_control'), 'carla_ackermann_control.launch.py')
+            )
         )
     ])
     return ld

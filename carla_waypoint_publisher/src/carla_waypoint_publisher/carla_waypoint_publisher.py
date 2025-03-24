@@ -45,7 +45,7 @@ class CarlaToRosWaypointConverter(CompatibleNode):
     - the hero vehicle appears
     - a new goal is set
     """
-    WAYPOINT_DISTANCE = 0.25
+    WAYPOINT_DISTANCE = 1.0
 
     def __init__(self):
         """
