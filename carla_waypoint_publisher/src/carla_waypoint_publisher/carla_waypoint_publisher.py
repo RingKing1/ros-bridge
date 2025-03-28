@@ -74,8 +74,8 @@ class CarlaToRosWaypointConverter(CompatibleNode):
             self.get_actor_waypoint)
 
         # set initial goal
-        self.goal = self.world.get_map().get_spawn_points()[0]
-
+        self.goal = self.world.get_map().get_spawn_points()[160] #180 直线较多 #160弯道较多
+       
         self.current_route = None
         self.goal_subscriber = self.new_subscription(
             PoseStamped,
