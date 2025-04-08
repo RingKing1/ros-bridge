@@ -216,67 +216,7 @@
         },
         {
             "type":"vehicle.nissan.micra",
-            "id":"vehicle15"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_16"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_17"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_18"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_19"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_20"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_21"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_22"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_23"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_24"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_25"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_26"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_27"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_28"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_29"
-        },
-        {
-            "type":"vehicle.nissan.micra",
-            "id":"vehicle_30"
+            "id":"vehicle_15"
         }
     ]
 }
